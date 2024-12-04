@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Reality</title>
+    <style>
+        body {
+            font-family: 'Cambria', serif;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text for contrast */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .slide {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #461919;
+            border: 1px solid #a88585;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .slide:hover {
+            background-color: #ad8484;
+        }
+        .sub-slide {
+            display: none;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #460202;
+            border: 1px solid #ad8484;
+        }
+        .conclusion {
+            margin-top: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .middle-text {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5em;
+            color: #ffD700; /* White text for contrast */
+        }
+        .image-container {
+            position: relative;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 25%; /* Adjust as needed */
+            height: auto;
+        }
+        .image-text {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* White text for contrast */
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #000; /* Shadow for better visibility */
+        }
+    </style>
+    <script>
+        function toggleSubSlides(slideId) {
+            const subSlides = document.querySelectorAll(`.sub-slide-${slideId}`);
+            subSlides.forEach(subSlide => {
+                subSlide.style.display = subSlide.style.display === 'block' ? 'none' : 'block';
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Living Key</h1>
+    <p>The mind is everything.</p>
+    <p>He who control his mind will find the truth.</p>
+    
+    <div id="slides">
+        <div class="slide" onclick="toggleSubSlides(0)">Be 1%</div>
+        <div class="sub-slide sub-slide-0">
+            <div class="image-container">
+                <img src="Image/Image 1.png" alt="Sub-Slide 1.1">
+                <div class="image-text">BE THE BEST</div>
+            </div>
+            <div><strong>BE THE BEST</strong><p>“Wherever you are, always be the best in your field, no one can beat you except when you stop stepping”.</p></div>
+            <div class="image-container">
+                <img src="Image/Image_2-removebg-preview.png" alt="Sub-Slide 1.2">
+                <div class="image-text">ALWAYS THINK DIFFERENTLY</div>
+            </div>
+            <div><strong>ALWAYS THINK DIFFERENTLY</strong><p>“Think differently, you will see many paths, the more paths the more opportunities and not everyone sees what you see”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_man_eksperimenting_reality_0.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">EXPERIMENT</div>
+            </div>
+            <div><strong>EXPERIMENT</strong><p>“Don't always comply with the system in a region be different and experience the phenomenon”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_chill_man_siting_on_a_chair_1.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">COMFORT IS KEY</div>
+            </div>
+            <div><strong>COMFORT IS KEY</strong><p>“Try to stay calm in all bad situations, when you are calm you can see the world more broadly”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_man_thinking_0.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">THINK BEFORE YOU ACT</div>
+            </div>
+            <div><strong>THINK BEFORE YOU ACT</strong><p>“You are a dynamic thinking being who thinks before you do, before you walk, and before you speak”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_and_he_is_standing_there_unfazed_1.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">STANDING FULL OF CONFIDENCE</div>
+            </div>
+            <div><strong>STANDING FULL OF CONFIDENCE</strong><p>“Corruption will always hit every living person so stand firm with confidence and don't let a little thorn affect you. Imagine when you shoot someone and he stands there unfazed”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_Enter_a_world_of_illusions_where_reality_an_1.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">ILLUSION</div>
+            </div>
+            <div><strong>ILLUSION</strong><p>“Never say never, because limits, like fears, are often just an illusions”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Lightning_XL_A_lone_figure_standing_on_the_edge_of_a_1.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">NOW OR NEVER</div>
+            </div>
+            <div><strong>NOW OR NEVER</strong><p>“Everyone has a dream, a desire, a passion to achieve their goals, the question is when will you start?”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_A_vibrant_depiction_of_the_cycle_of_life_an_0.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">LIFE AND DEATH</div>
+            </div>
+            <div><strong>LIFE AND DEATH</strong><p>“Stop thinking that life is only once. We have the opportunity to live every day, but death only comes once. Never put off anything you want to do, imagine how many ideas are buried and don't become reality because they procrastinate”.</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Lightning_XL_A_majestic_statue_of_victory_stands_tall_0-removebg-preview.png" alt="Sub-Slide 1.3">
+                <div class="image-text">VICTORY</div>
+            </div>
+            <div><strong>VICTORY</strong><p>“The world doesn't always go our way. We are not the main characters in this world and may not even be anyone in this world. However, in life, as in warfare, it is not those who attack more who will win, but those who are able to endure to the end. While this is not about warfare, it is still important to remember that resilience is key. It's about how much you endure after taking so many hits".</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Lightning_XL_A_unique_and_diverse_prompt_that_showcas_0-removebg-preview.png" alt="Sub-Slide 1.3">
+                <div class="image-text">EXPRESS TRUST</div>
+            </div>
+            <div><strong>EXPRESS TRUST</strong><p>"If you can see it in your mind and you have enough courage to speak about it, it will happen. A lot of people believe in certain thoughts but they keep them to themselves, they don't put them out there. You really believe it if you become vocal with it, you create that law of attraction and it will come true". </p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Vision_XL_A_lone_soldier_stands_tall_his_armor_gleami_0.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">GOLDEN SAND</div>
+            </div>
+            <div><strong>GOLDEN SAND</strong><p>“You see a lot of unspeakable beauty on this earth, while humans are like sand spread all over the world. If you don't see any beauty around you, be that beauty yourself, be one of them".</p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Diffusion_XL_A_human_being_with_a_wild_imagination_su_1.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">IMAGINATION</div>
+            </div>
+            <div><strong>IMAGINATION</strong><p>“What you think, you become, what you feel, you attract, and what you imagine, you create". </p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Diffusion_XL_A_treasure_map_leads_you_to_a_hidden_cav_0.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">LUCK</div>
+            </div>
+            <div><strong>LUCK</strong><p>“When preparation meets opportunities, it's a luck". </p></div>
+            <div class="image-container">
+                <img src="Image/Leonardo_Diffusion_XL_A_human_being_with_a_wild_imagination_su_1.jpg" alt="Sub-Slide 1.3">
+                <div class="image-text">IMAGINATION</div>
+            </div>
+            <div><strong>IMAGINATION</strong><p>“What you think, you become, what you feel, you attract, and what you imagine, you create". </p></div>
+            <!-- Continue adding images and text for other subslides -->
+        </div>
+
+        <div class="slide" onclick="toggleSubSlides(1)">Unlock Your Potential</div>
+        <div class="sub-slide sub-slide-1">
+            <div class="image-container">
+                <audio id="myAudio" autoplay loop>
+                    <source src = "mp3/Kendrick Lamar - Swimming Pools (Drank) OFFICIAL INSTRUMENTAL.mp3" type="audio/mp3"/>
+                </audio>
+
+                <script>
+                    // Get the audio element
+                    var audio = document.getElementById("myAudio");
+                    
+                    // Set volume to 5%
+                    audio.volume = 0.05; // 0.05 corresponds to 5%
+                </script>
+
+                <div class="image-text">Unlock Your Potential</div>
+            </div>
+            <div><strong>Born</strong><p>This is the description for Sub-Slide 2.1.</p></div>
+            <div class="image-container">
+            </div>
+            <div><strong>Logical above emotion</strong><p>This is the description for Sub-Slide 2.2.</p></div>
+            <div><strong>Always ask WHY</strong><p>This is the description for Sub-Slide 2.2.</p></div>
+            <!-- Continue adding images and text for other subslides -->
+        </div>
+
+        <div class="slide" onclick="toggleSubSlides(2)">My mind, My world, My hand, My blood, My life, Myself.</div>
+        <div class="sub-slide sub-slide-2">
+            <div class="image-container">
+                <div class="image-text"></div>
+            </div>
+            <div></strong><p>People says I'm crazy, stressed, depressed, weird, delusional, weak, hallucinating, liar, boring, selfish, have no life. I dont give a f*ck just keep talking i'll enjoy all your words, i eat it like a man. I love it when people make assumptions about me.</p></div>
+            <div></strong><p>I see the world differently, I see the world in my own way, I've seen a different reality, I've seen a different me. Same as people do. I talk a lot of things to people but many of them don't believe, don't listen, don't see reality and their lives are like in a system that I can see through and I see them trapped in it.</p></div>
+            <div></strong><p>I change the way i think, i don't think like any other man, i want to be more than any man, and that's my ambition.</p></div>
+            <div></strong><p>I understand the power of imagination, that you are the creator of your own reality.</p></div>
+            <div></strong><p>I have a few partner because I'm different. I'm too boring to live on this earth. I don't seek pleasure in this world. This pleasure that blinds the eyes, mind, and heart, it disturbs my peace.</p></div>
+            <div></strong><p>Everyone knows what's right and wrong but only few of them having real eyes, realize, real lies.</p></div>
+            <div></strong><p>The world ain't a sunshine and rainbows it's a very mean and nasty place, you me or nobody is gonna hit as hard as life but it ain't about how hard you hit it's about how hard you can get hit and keep moving forward, that's how winning is done. People says it's okay if you're stupid, it's okay if you're poor, it's okay if you're lazy, it's okay if you're timid, it's okay if you are blabla. It's not f*cking okay, I want to be the best,I want to be genius, I want to be a man, I want to be number one, I want to be rich, I want to have what I want, I want everything.</p></div>
+            <div></strong><p>As I write this I have nothing. I am nobody.</p></div>
+            <div></strong><p>I wrote this based on the experiments that happened around me, on the actions that were in front of my eyes, you can lie in front of me but don't think I don't know what you are doing, I saw everything.</p></div>
+            <div></strong><p>What I write here can change the minds of those of you who want to think and who want to change for the better life. Be kind to anybody, don't talk about their sins in the past, spread the good words, talk nicely, make your parents happy, make your friend happy, and be strong there's always be corruption around you and don't fell for it.</p></div>
+            <div></strong><p>I've lost my mind on this game like Vincent Van Gogh dedicated his life to his art and he lost his mind in the process and i'm happy that i lost my mind.</p></div>
+            <div></strong><p>Think about all that i write from the first page, why not? are you denial? or am i wrong?.</p></div>
+            <div style="color: gold;"><strong><p>-Femto</p></strong></div>
+            <!-- Continue adding images and text for other subslides -->
+        </div>
+
+        <!-- Continue this pattern for Slides 4 to 20 -->
+    </div>
+
+    <div class="conclusion">I feel i could play any role on planet earth, my life is so far removed from reality and nobody knows me, they have assumptions of me, but nobody really knows me and that's in my favor.</div>
+    <div class="middle-text">But i am no gold, i am a carrier</div>
+</body>
+</html>
